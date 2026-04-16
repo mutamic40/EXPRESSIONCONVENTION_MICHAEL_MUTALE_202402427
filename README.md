@@ -43,5 +43,12 @@ Uses the **Reversal & Swap Method**:
 
 ---
 
+# 🧪 Trace Examples
 
-This code is structured for academic review, prioritizing readability and standard data structure principles.
+| Infix Expression | Postfix Result | Prefix Result |
+| :--- | :--- | :--- |
+| `A + B * C` | `A B C * +` | `+ A * B C` |
+| `(10 + 2) * 3^2` | `10 2 + 3 2 ^ *` | `* + 10 2 ^ 3 2` |
+| `A^B^C` | `A B C ^ ^` | `^ A ^ B C` |
+
+---
